@@ -1,0 +1,49 @@
+{
+  "Navbar": {
+    "title": "Dilnoza AI",
+    "home": "Home",
+    "chatbot": "Chatbot",
+    "articles": "Articles"
+  },
+  "Hero": {
+    "title": "Dilnoza's English",
+    "subtitle": "Elevate your language skills with a modern, AI-powered approach to learning.",
+    "cta": "Start Learning Now"
+  },
+  "Capabilities": {
+    "title": "What We Offer",
+    "chatbot": "AI Chatbot",
+    "chatbotDesc": "Practice conversations instantly. The AI responds like Dilnoza, providing corrections and guidance in English, Russian, or Uzbek.",
+    "articles": "Article Generation",
+    "articlesDesc": "Generate high-quality English articles on any topic. Perfect for practicing reading comprehension and building vocabulary."
+  },
+  "Philosophy": {
+    "title": "Dilnoza's Teaching Way",
+    "p1": "Currently pursuing her PhD, Dilnoza has dedicated her academic and professional life to understanding the most effective methods for language acquisition.",
+    "p2": "Her methodology centers around <bold>immersive dialogue</bold> and <bold>contextual understanding</bold>. Rather than memorizing endless grammar rules, she believes students excel when they engage in meaningful conversations and read materials that genuinely interest them.",
+    "p3": "This platform embodies her philosophy: a safe, intelligent space for students to practice actively, make mistakes, and learn naturally through cutting-edge AI.",
+    "avatarName": "Dilnoza"
+  },
+  "Footer": {
+    "text": "© {year} Dilnoza's English. Built for educational purposes."
+  },
+  "Chatbot": {
+    "teacher": "English Teacher",
+    "clearBtn": "Clear",
+    "welcomeTitle": "Welcome to Dilnoza's Classroom",
+    "welcomeSub": "Start a conversation! Dilnoza is ready to chat with you in {language}.",
+    "sug1": "Improve grammar",
+    "sug2": "Present perfect tense",
+    "sug3": "Practice speaking",
+    "placeholder": "Message Dilnoza..."
+  },
+  "Articles": {
+    "title": "English Articles",
+    "subtitle": "Generate high-quality, English-only articles on any topic instantly to practice reading and vocabulary.",
+    "label": "What do you want to read about?",
+    "wordCountLabel": "Length",
+    "placeholder": "e.g. The history of the English language",
+    "generate": "Generate",
+    "generating": "Generating..."
+  }
+}

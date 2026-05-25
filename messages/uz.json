@@ -1,0 +1,49 @@
+{
+  "Navbar": {
+    "title": "Dilnoza AI",
+    "home": "Asosiy",
+    "chatbot": "Chatbot",
+    "articles": "Maqolalar"
+  },
+  "Hero": {
+    "title": "Dilnoza bilan Ingliz Tili",
+    "subtitle": "Sun'iy intellektga asoslangan zamonaviy yondashuv bilan til ko'nikmalaringizni oshiring.",
+    "cta": "O'rganishni Boshlash"
+  },
+  "Capabilities": {
+    "title": "Bizning Takliflarimiz",
+    "chatbot": "SI Chatbot",
+    "chatbotDesc": "Suhbatni darhol mashq qiling. Sun'iy intellekt Dilnoza kabi javob beradi, ingliz, rus yoki o'zbek tillarida xatolarni to'g'rilab, yo'l-yo'riq ko'rsatadi.",
+    "articles": "Maqola Yaratish",
+    "articlesDesc": "Istalgan mavzuda yuqori sifatli inglizcha maqolalar yarating. O'qishni tushunishni mashq qilish va so'z boyligini oshirish uchun juda mos."
+  },
+  "Philosophy": {
+    "title": "Dilnozaning O'qitish Usuli",
+    "p1": "Hozirda PhD bosqichida tahsil olayotgan Dilnoza o'zining akademik va kasbiy faoliyatini til o'rganishning eng samarali usullarini tushunishga bag'ishlagan.",
+    "p2": "Uning metodologiyasi <bold>chuqur suhbat</bold> va <bold>kontekstni tushunish</bold>ga qaratilgan. U cheksiz grammatika qoidalarini yodlash o'rniga, o'quvchilar mazmunli suhbatlarga kirishganda va o'zlarini haqiqatan ham qiziqtirgan materiallarni o'qiganda muvaffaqiyatga erishadi deb hisoblaydi.",
+    "p3": "Ushbu platforma uning falsafasini o'zida mujassam etadi: talabalar ilg'or SI orqali faol mashq qilishlari, xato qilishlari va tabiiy ravishda o'rganishlari uchun xavfsiz, intellektual makon.",
+    "avatarName": "Dilnoza"
+  },
+  "Footer": {
+    "text": "© {year} Dilnoza Ingliz Tili. Ta'lim maqsadida yaratilgan."
+  },
+  "Chatbot": {
+    "teacher": "Ingliz tili o'qituvchisi",
+    "clearBtn": "Tozalash",
+    "welcomeTitle": "Dilnozaning Sinfxonasiga Xush Kelibsiz",
+    "welcomeSub": "Suhbatni boshlang! Dilnoza siz bilan ushbu tilda suhbatlashishga tayyor: {language}.",
+    "sug1": "Grammatikani yaxshilash",
+    "sug2": "Present Perfect zamoni",
+    "sug3": "Gapirishni mashq qilish",
+    "placeholder": "Dilnozaga xabar yozing..."
+  },
+  "Articles": {
+    "title": "Inglizcha Maqolalar",
+    "subtitle": "O'qish va so'z boyligini mashq qilish uchun istalgan mavzuda yuqori sifatli, faqat ingliz tilidagi maqolalarni darhol yarating.",
+    "label": "Nima haqida o'qishni xohlaysiz?",
+    "wordCountLabel": "Uzunligi",
+    "placeholder": "masalan, Ingliz tilining tarixi",
+    "generate": "Yaratish",
+    "generating": "Yaratilmoqda..."
+  }
+}
