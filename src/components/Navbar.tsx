@@ -49,6 +49,8 @@ export default function Navbar() {
             <Link href="/" className={linkClass('/')}>{t('home')}</Link>
             <Link href="/chatbot" className={linkClass('/chatbot')}>{t('chatbot')}</Link>
             <Link href="/article-generator" className={linkClass('/article-generator')}>{t('articles')}</Link>
+            <Link href="/library" className={linkClass('/library')}>{t('library')}</Link>
+            <Link href="/tips" className={linkClass('/tips')}>{t('tips')}</Link>
             <div className="h-6 w-px bg-[#d1fae5] mx-2"></div>
             <select
               value={language}
@@ -99,6 +101,12 @@ export default function Navbar() {
             </Link>
             <Link href="/article-generator" className={`block w-full px-4 py-3 rounded-xl text-base font-medium active:scale-[0.98] transition-transform ${pathname === '/article-generator' ? 'bg-[#dcfce7] text-[#16a34a]' : 'text-[#374151] hover:bg-[#f0fdf4]'}`}>
               {t('articles')}
+            </Link>
+            <Link href="/library" className={`block w-full px-4 py-3 rounded-xl text-base font-medium active:scale-[0.98] transition-transform ${pathname === '/library' ? 'bg-[#dcfce7] text-[#16a34a]' : 'text-[#374151] hover:bg-[#f0fdf4]'}`}>
+              {t('library')}
+            </Link>
+            <Link href="/tips" className={`block w-full px-4 py-3 rounded-xl text-base font-medium active:scale-[0.98] transition-transform ${pathname === '/tips' ? 'bg-[#dcfce7] text-[#16a34a]' : 'text-[#374151] hover:bg-[#f0fdf4]'}`}>
+              {t('tips')}
             </Link>
           </div>
         </div>

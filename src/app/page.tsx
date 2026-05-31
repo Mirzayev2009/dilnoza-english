@@ -68,19 +68,33 @@ export default function Home() {
           <div className="text-center mb-10 sm:mb-16 reveal">
             <h2 className="text-3xl sm:text-4xl font-bold text-[#111827]">{tCaps('title')}</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 stagger-children">
-            <Link href="/chatbot" className="reveal card-lift group bg-white p-6 sm:p-10 rounded-3xl border border-[#e5e7eb] cursor-pointer block">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 stagger-children">
+            <Link href="/chatbot" className="reveal card-lift group bg-white p-6 sm:p-8 rounded-3xl border border-[#e5e7eb] cursor-pointer block flex flex-col h-full">
               <div className="text-4xl sm:text-5xl mb-4 sm:mb-6 group-hover:scale-110 transition-transform animate-float">💬</div>
-              <h3 className="text-xl sm:text-2xl font-bold text-[#111827] mb-3 sm:mb-4">{tCaps('chatbot')}</h3>
-              <p className="text-[#374151] leading-relaxed">
+              <h3 className="text-xl font-bold text-[#111827] mb-3">{tCaps('chatbot')}</h3>
+              <p className="text-[#374151] leading-relaxed flex-grow text-sm">
                 {tCaps('chatbotDesc')}
               </p>
             </Link>
-            <Link href="/article-generator" className="reveal card-lift group bg-white p-6 sm:p-10 rounded-3xl border border-[#e5e7eb] cursor-pointer block">
-              <div className="text-4xl sm:text-5xl mb-4 sm:mb-6 group-hover:scale-110 transition-transform animate-float" style={{ animationDelay: '1s' }}>📝</div>
-              <h3 className="text-xl sm:text-2xl font-bold text-[#111827] mb-3 sm:mb-4">{tCaps('articles')}</h3>
-              <p className="text-[#374151] leading-relaxed">
+            <Link href="/article-generator" className="reveal card-lift group bg-white p-6 sm:p-8 rounded-3xl border border-[#e5e7eb] cursor-pointer block flex flex-col h-full">
+              <div className="text-4xl sm:text-5xl mb-4 sm:mb-6 group-hover:scale-110 transition-transform animate-float" style={{ animationDelay: '0.2s' }}>📝</div>
+              <h3 className="text-xl font-bold text-[#111827] mb-3">{tCaps('articles')}</h3>
+              <p className="text-[#374151] leading-relaxed flex-grow text-sm">
                 {tCaps('articlesDesc')}
+              </p>
+            </Link>
+            <Link href="/library" className="reveal card-lift group bg-white p-6 sm:p-8 rounded-3xl border border-[#e5e7eb] cursor-pointer block flex flex-col h-full">
+              <div className="text-4xl sm:text-5xl mb-4 sm:mb-6 group-hover:scale-110 transition-transform animate-float" style={{ animationDelay: '0.4s' }}>📚</div>
+              <h3 className="text-xl font-bold text-[#111827] mb-3">{tCaps('library')}</h3>
+              <p className="text-[#374151] leading-relaxed flex-grow text-sm">
+                {tCaps('libraryDesc')}
+              </p>
+            </Link>
+            <Link href="/tips" className="reveal card-lift group bg-white p-6 sm:p-8 rounded-3xl border border-[#e5e7eb] cursor-pointer block flex flex-col h-full">
+              <div className="text-4xl sm:text-5xl mb-4 sm:mb-6 group-hover:scale-110 transition-transform animate-float" style={{ animationDelay: '0.6s' }}>💡</div>
+              <h3 className="text-xl font-bold text-[#111827] mb-3">{tCaps('tips')}</h3>
+              <p className="text-[#374151] leading-relaxed flex-grow text-sm">
+                {tCaps('tipsDesc')}
               </p>
             </Link>
           </div>
