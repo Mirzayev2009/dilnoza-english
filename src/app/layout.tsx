@@ -11,14 +11,30 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
+
+
+
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "Dilnoza English AI",
-  description: "Learn English with Dilnoza's AI Chatbot and Article Generator",
+  title: "Dilnoza English AI | Learn English with AI",
+  description:
+    "Practice English with Dilnoza English AI. Improve reading, vocabulary, grammar, and speaking through AI-powered lessons and articles.",
+  keywords: [
+    "Dilnoza",
+    "Dilnoza English",
+    "Dilnoza English AI",
+    "English learning",
+    "AI English tutor",
+    "English chatbot",
+    "Vocabulary practice",
+    "Grammar practice",
+    "English articles",
+    "Ingliz tili",
+  ],
 };
 
 export default async function RootLayout({
